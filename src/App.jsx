@@ -1,9 +1,12 @@
 import React from 'react'
+import background from './components/background'
+import Foreground from './components/Foreground'
 
 function App() {
   return (
-    <div className='w-full h-screen bg-zinc-800'>
-    <h1>Docs.</h1>
+    <div className='relative w-full h-screen bg-zinc-800'>
+     <background/>
+      <Foreground/>
     </div>
   )
 }
